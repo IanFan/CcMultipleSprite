@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1814E133168FE92F00E0565D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814E132168FE92F00E0565D /* Default-568h@2x.png */; };
 		187D1E2B168FCE4A0096C830 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D1E2A168FCE4A0096C830 /* QuartzCore.framework */; };
 		187D1E2D168FCE4A0096C830 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D1E2C168FCE4A0096C830 /* OpenGLES.framework */; };
 		187D1E2F168FCE4A0096C830 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D1E2E168FCE4A0096C830 /* OpenAL.framework */; };
@@ -131,11 +132,15 @@
 		187D1FAE168FCE4C0096C830 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 187D1FAD168FCE4C0096C830 /* vec4.c */; };
 		187D1FB3168FCE4C0096C830 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D1FB2168FCE4C0096C830 /* main.m */; };
 		187D1FB6168FCE4C0096C830 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D1FB5168FCE4C0096C830 /* AppDelegate.m */; };
-		187D1FB9168FCE4C0096C830 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D1FB8168FCE4C0096C830 /* HelloWorldLayer.m */; };
 		187D1FBC168FCE4C0096C830 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D1FBB168FCE4C0096C830 /* IntroLayer.m */; };
+		189FD6391690055000AABF17 /* MultipleSpriteLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 189FD6361690055000AABF17 /* MultipleSpriteLayer.m */; };
+		189FD63A1690055000AABF17 /* SpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 189FD6381690055000AABF17 /* SpriteNode.m */; };
+		189FD63E1690059E00AABF17 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 189FD63C1690059E00AABF17 /* ball.png */; };
+		189FD63F1690059E00AABF17 /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189FD63D1690059E00AABF17 /* ball@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1814E132168FE92F00E0565D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		187D1E26168FCE4A0096C830 /* CcMultipleSprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CcMultipleSprite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187D1E2A168FCE4A0096C830 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		187D1E2C168FCE4A0096C830 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -394,10 +399,14 @@
 		187D1FB2168FCE4C0096C830 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		187D1FB4168FCE4C0096C830 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		187D1FB5168FCE4C0096C830 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		187D1FB7168FCE4C0096C830 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		187D1FB8168FCE4C0096C830 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		187D1FBA168FCE4C0096C830 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		187D1FBB168FCE4C0096C830 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		189FD6351690055000AABF17 /* MultipleSpriteLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleSpriteLayer.h; sourceTree = "<group>"; };
+		189FD6361690055000AABF17 /* MultipleSpriteLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleSpriteLayer.m; sourceTree = "<group>"; };
+		189FD6371690055000AABF17 /* SpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteNode.h; sourceTree = "<group>"; };
+		189FD6381690055000AABF17 /* SpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteNode.m; sourceTree = "<group>"; };
+		189FD63C1690059E00AABF17 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		189FD63D1690059E00AABF17 /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,10 +467,13 @@
 			children = (
 				187D1FB4168FCE4C0096C830 /* AppDelegate.h */,
 				187D1FB5168FCE4C0096C830 /* AppDelegate.m */,
-				187D1FB7168FCE4C0096C830 /* HelloWorldLayer.h */,
-				187D1FB8168FCE4C0096C830 /* HelloWorldLayer.m */,
 				187D1FBA168FCE4C0096C830 /* IntroLayer.h */,
 				187D1FBB168FCE4C0096C830 /* IntroLayer.m */,
+				189FD6351690055000AABF17 /* MultipleSpriteLayer.h */,
+				189FD6361690055000AABF17 /* MultipleSpriteLayer.m */,
+				189FD6371690055000AABF17 /* SpriteNode.h */,
+				189FD6381690055000AABF17 /* SpriteNode.m */,
+				189FD640169005A700AABF17 /* MyResources */,
 				187D1E3D168FCE4A0096C830 /* Resources */,
 				187D1E57168FCE4A0096C830 /* libs */,
 				187D1FB0168FCE4C0096C830 /* Supporting Files */,
@@ -472,6 +484,7 @@
 		187D1E3D168FCE4A0096C830 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1814E132168FE92F00E0565D /* Default-568h@2x.png */,
 				187D1E3E168FCE4A0096C830 /* Default.png */,
 				187D1E40168FCE4A0096C830 /* Default-Landscape~ipad.png */,
 				187D1E42168FCE4A0096C830 /* fps_images.png */,
@@ -832,6 +845,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		189FD640169005A700AABF17 /* MyResources */ = {
+			isa = PBXGroup;
+			children = (
+				189FD642169005B300AABF17 /* Image */,
+				189FD641169005B000AABF17 /* Image@2x */,
+			);
+			name = MyResources;
+			sourceTree = "<group>";
+		};
+		189FD641169005B000AABF17 /* Image@2x */ = {
+			isa = PBXGroup;
+			children = (
+				189FD63D1690059E00AABF17 /* ball@2x.png */,
+			);
+			name = "Image@2x";
+			sourceTree = "<group>";
+		};
+		189FD642169005B300AABF17 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				189FD63C1690059E00AABF17 /* ball.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -895,6 +933,9 @@
 				187D1E53168FCE4A0096C830 /* Icon@2x.png in Resources */,
 				187D1E56168FCE4A0096C830 /* iTunesArtwork in Resources */,
 				187D1F94168FCE4C0096C830 /* ChangeLog in Resources */,
+				1814E133168FE92F00E0565D /* Default-568h@2x.png in Resources */,
+				189FD63E1690059E00AABF17 /* ball.png in Resources */,
+				189FD63F1690059E00AABF17 /* ball@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,8 +1048,9 @@
 				187D1FAE168FCE4C0096C830 /* vec4.c in Sources */,
 				187D1FB3168FCE4C0096C830 /* main.m in Sources */,
 				187D1FB6168FCE4C0096C830 /* AppDelegate.m in Sources */,
-				187D1FB9168FCE4C0096C830 /* HelloWorldLayer.m in Sources */,
 				187D1FBC168FCE4C0096C830 /* IntroLayer.m in Sources */,
+				189FD6391690055000AABF17 /* MultipleSpriteLayer.m in Sources */,
+				189FD63A1690055000AABF17 /* SpriteNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1154,7 @@
 				187D1FC1168FCE4C0096C830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
